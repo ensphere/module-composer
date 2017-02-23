@@ -1,0 +1,15 @@
+{
+  "name" : "ensphere/module-composer",
+  "type" : "composer-plugin",
+  "require": {
+    "composer-plugin-api": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ensphere\\ModuleComposer\\": "src"
+    }
+  },
+  "extra": {
+    "class": "Ensphere\\ModuleComposer\\Plugin"
+  }
+}
