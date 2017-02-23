@@ -1,5 +1,6 @@
 {
   "name" : "ensphere/module-composer",
+  "description": "",
   "type" : "composer-plugin",
   "require": {
     "composer-plugin-api": "^1.0"
@@ -11,5 +12,9 @@
   },
   "extra": {
     "class": "Ensphere\\ModuleComposer\\Plugin"
+  },
+  "config": {
+    "preferred-install": "dist",
+    "secure-http": false
   }
 }
